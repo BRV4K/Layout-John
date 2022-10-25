@@ -1,0 +1,46 @@
+@use "./hi.scss";
+@use "./posts.scss";
+@use "./works.scss";
+@use "./header.scss";
+@use "./footer.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 856px;
+  &__header{
+    max-width: 1032px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+body {
+  font-family: Heebo, sans-serif;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h2 {
+  margin: 0;
+  display: inline;
+}
+h1, h3, h4 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}

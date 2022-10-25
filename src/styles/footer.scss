@@ -1,0 +1,19 @@
+.footer{
+  &__container{
+    max-width: 1152px;
+    max-height: 182px;
+    text-align: center;
+  }
+  &__cop{
+    margin-bottom: 54px;
+    text-align: center;
+  }
+
+  &__logos{
+    display: flex;
+    gap: 35px;
+    max-width: 232px;
+    margin:51px auto 26px;
+  }
+
+}
